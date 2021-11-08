@@ -1,0 +1,45 @@
+.swiper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper .swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.swiper.mySwiper2 .swiper-slide {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+.swiper.mySwiper2 .swiper-slide img {
+  width: 100%;
+  max-height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.swiper.mySwiper2 .swiper-slide .slider-text {
+  z-index: 101;
+}
+.swiper.mySwiper .swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+}
+.swiper.mySwiper .swiper-slide {
+  opacity: 0.4;
+  overflow: hidden;
+}
+.swiper.mySwiper .swiper-slide img {
+  width: 100%;
+}
+.swiper.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=swiper-test.css.map */
