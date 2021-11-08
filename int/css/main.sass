@@ -56,46 +56,83 @@ body
 	.icon-find
 		font-size: 18px
 
-	.intro_form
+	.intro-form
 		padding: 50px 20px
 		max-width: 490px
 //<!--Section Intro finish-->
 //<!--section service start-->
 .service
 
-	.service_title
+	.service-title
 		font-size: 40px
 		font-weight: 600
 		line-height: 50px
 		color: $mainDarkColor
 		margin-bottom: 16px
 
-	.service_mini_text
+	.service-mini-text
 		font-size: 16px
 		font-weight: 400
 		line-height: 28px
 		color: $primaryTransparentColor
 		max-width: 500px
+		margin-bottom: 40px
 
-	.service_group
+	.service-group
 		padding-top: 79px
 		display: flex
 		flex-direction: column
 		text-align: center
 
-		.service_link
+		.service-link
 			text-decoration: none
 			font-size: 16px
 			font-weight: 400
 			line-height: 28px
 
-		.service_link::after
+		.service-link::after
 			content: ""
 			width: 109px
 			height: 6px
 			background: $primaryColor
 			display: block
 			border-radius: 50px
-
-
 //section service finish-->
+//<!--Service_items-->
+.service-items
+	text-align: center
+
+
+	.item-one
+		padding: 33px 15px 50px
+
+		.figure
+			width: 56px
+			height: 56px
+			background: $primaryColor
+			-moz-border-radius: 50px
+			-webkit-border-radius: 50px
+			border-radius: 50px
+			position: relative
+
+		.icon
+			font-size: 50px
+			color: $darkLightColor
+			position: absolute
+			top: 19px
+			right: -1px
+
+	.item-body
+
+		.service-title
+			font-size: 20px
+			font-weight: 400
+			line-height: 28px
+			padding-top: 51px
+			margin-bottom: 12px
+
+		.service-mini-text
+			font-size: 16px
+			font-weight: 400
+			line-height: 28px
+

@@ -131,44 +131,80 @@ body {
 .intro .icon-find {
   font-size: 18px;
 }
-.intro .intro_form {
+.intro .intro-form {
   padding: 50px 20px;
   max-width: 490px;
 }
 
-.service .service_title {
+.service .service-title {
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
   color: #000000;
   margin-bottom: 16px;
 }
-.service .service_mini_text {
+.service .service-mini-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #555555;
   max-width: 500px;
+  margin-bottom: 40px;
 }
-.service .service_group {
+.service .service-group {
   padding-top: 79px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.service .service_group .service_link {
+.service .service-group .service-link {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
-.service .service_group .service_link::after {
+.service .service-group .service-link::after {
   content: "";
   width: 109px;
   height: 6px;
   background: #F9D15C;
   display: block;
   border-radius: 50px;
+}
+
+.service-items {
+  text-align: center;
+}
+.service-items .item-one {
+  padding: 33px 15px 50px;
+}
+.service-items .item-one .figure {
+  width: 56px;
+  height: 56px;
+  background: #F9D15C;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+}
+.service-items .item-one .icon {
+  font-size: 50px;
+  color: #222222;
+  position: absolute;
+  top: 19px;
+  right: -1px;
+}
+.service-items .item-body .service-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 51px;
+  margin-bottom: 12px;
+}
+.service-items .item-body .service-mini-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .row-padding-0 {
