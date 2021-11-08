@@ -1,2 +1,40 @@
 @import "variables"
 
+.intro-img-group
+    margin-bottom: 120px
+
+.swiper
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+    .swiper-slide
+
+        img
+            display: block
+            object-fit: cover
+
+    &.intro-slider
+
+        .swiper-slide
+
+            img
+                width: 100%
+                max-height: 590px
+
+    &.in-intro-slider
+
+        .swiper-wrapper
+            display: flex
+            flex-direction: column
+            max-height: 300px
+
+        .swiper-slide
+            opacity: 0.4
+            overflow: hidden
+
+            img
+                width: 100%
+
+        .swiper-slide-thumb-active
+            opacity: 1
