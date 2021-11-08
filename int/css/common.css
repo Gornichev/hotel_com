@@ -1,0 +1,104 @@
+@import "../icon/style.css";
+@import "carousel.css";
+@import "form.css";
+.btn-light {
+  border-color: #999999;
+  padding: 10px 22px;
+  border-radius: 30%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #100F2E;
+}
+
+.btn-find {
+  background: #3771C8;
+  color: #FFFFFF;
+  padding: 16px;
+  border-radius: 10%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1304px;
+}
+
+.header {
+  padding-top: 48px;
+  margin-bottom: 100px;
+}
+.header .nav .nav-item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  margin-left: 40px;
+}
+.header .nav-item:first-child {
+  margin-left: 0;
+}
+.header .nav .btn-light {
+  margin-left: 25px;
+}
+.header .nav .icon {
+  margin-left: 60px;
+  color: #000000;
+  font-size: 25px;
+}
+
+.intro .intro-title {
+  font-size: 60px;
+  line-height: 80px;
+  color: #000000;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.intro .intro-mini-text {
+  font-size: 20px;
+  line-height: 32px;
+  color: #555555;
+}
+.intro .icon {
+  font-size: 20px;
+  color: #999999;
+}
+.intro .icon-find {
+  font-size: 18px;
+}
+.intro .intro_form {
+  padding: 50px 20px;
+  max-width: 490px;
+}
+
+.intro-img-group .intro-img-text {
+  background: url("../img/intro3.png") no-repeat;
+  width: 100%;
+  height: 950px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.row-padding-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.row-padding-0 > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+/*# sourceMappingURL=common.css.map */

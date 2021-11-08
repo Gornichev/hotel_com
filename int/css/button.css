@@ -1,0 +1,21 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.header {
+  padding-top: 48px;
+}
+.header .nav .nav-item {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=button.css.map */

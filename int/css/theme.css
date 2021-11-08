@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.header {
+  padding-top: 48px;
+}
+.header .nav .nav-item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  margin-left: 40px;
+}
+.header .nav-item:first-child {
+  margin-left: 0;
+}
+.header .nav .btn-light {
+  margin-left: 25px;
+}
+.header .nav .icon {
+  margin-left: 60px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=theme.css.map */
