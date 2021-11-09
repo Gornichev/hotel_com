@@ -84,7 +84,7 @@
   max-height: 400px;
 }
 .section-feedback .in-feedback-slider .feedback-photo {
-  margin-bottom: 8px;
+  margin: 0 auto 8px;
   text-align: center;
 }
 .section-feedback .in-feedback-slider .feedback-title {

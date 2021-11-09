@@ -13,15 +13,19 @@ const swiper2 = new Swiper(".intro-slider", {
 });
 const swiperfeedback = new Swiper(".in-feedback-slider", {
     spaceBetween: 24,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+
+    freeMode: true,
+    watchSlidesProgress: true,
+
 });
 const swiperinfeedback = new Swiper(".feedback-slider", {
     spaceBetween: 24,
     thumbs: {
-        swiper: swiper,
+        swiper: swiperfeedback,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
 });
 
