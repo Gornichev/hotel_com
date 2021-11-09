@@ -97,6 +97,10 @@ body {
   max-width: 1304px;
 }
 
+.container-sm {
+  max-width: 1130px;
+}
+
 .header {
   padding-top: 48px;
   margin-bottom: 100px;
@@ -219,6 +223,9 @@ body {
   line-height: 28px;
 }
 
+.section_worth {
+  margin-bottom: 100px;
+}
 .section_worth .worth-full {
   padding-left: 43px;
 }
@@ -237,6 +244,7 @@ body {
 .section_worth .worth-full .worth-number .worth-group {
   margin-bottom: 57px;
   padding-left: 5px;
+  text-align: center;
 }
 .section_worth .worth-full .worth-number .worth-group .worth-element {
   color: #222222;
@@ -250,6 +258,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  text-align: center;
+}
+
+.section-mini-logo-line .mini-logo-one {
+  margin-right: 10px;
 }
 
 .row-padding-0 {
