@@ -11,19 +11,17 @@ const swiper2 = new Swiper(".intro-slider", {
         swiper: swiper,
     },
 });
-
 const swiperfeedback = new Swiper(".in-feedback-slider", {
     spaceBetween: 24,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesProgress: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-
 });
 const swiperinfeedback = new Swiper(".feedback-slider", {
     spaceBetween: 24,
-
+    thumbs: {
+        swiper: swiper,
+    },
 });
+
