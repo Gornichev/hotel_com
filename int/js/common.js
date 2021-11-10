@@ -15,8 +15,6 @@ const swiper2 = new Swiper(".intro-slider", {
 const swiperfeedback = new Swiper(".in-feedback-slider", {
     spaceBetween: 24,
     freeMode: true,
-    watchSlidesProgress: true,
-
 });
 const swiperinfeedback = new Swiper(".feedback-slider", {
     spaceBetween: 24,
@@ -28,6 +26,5 @@ const swiperinfeedback = new Swiper(".feedback-slider", {
         clickable: true,
         freeMode: true,
     },
-
 });
 
