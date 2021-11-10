@@ -6,13 +6,20 @@ const swiper = new Swiper(".in-intro-slider", {
     freeMode: true,
     watchSlidesProgress: true,
     direction: "vertical",
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 });
 const swiper2 = new Swiper(".intro-slider", {
     loop: true,
     spaceBetween: 24,
     thumbs: {
         swiper: swiper,
-
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
     },
 });
 // Swiper feedback start
