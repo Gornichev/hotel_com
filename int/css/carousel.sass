@@ -59,27 +59,40 @@
 //feedback-carousel
 .section-feedback
 
+    .feedback-slider
+
+        .slider-user
+            min-height: 400px
+
     .in-feedback-slider
 
-        .feedback-group
-            padding: 42px 71px 87px 71px
-            text-align: center
-            background: $primaryColor
+        .swiper-wrapper
+            display: flex
+
+        .swiper-slide
+            overflow: hidden
             max-height: 400px
 
-        .feedback-photo
-            margin: 0 auto 8px
-            text-align: center
+            .feedback-group
+                padding: 42px 71px 87px 71px
+                text-align: center
+                background: $primaryColor
 
-        .feedback-title
-            line-height: 32px
-            font-weight: 400
-            font-size: 16px
-            color: $primaryTransparentColor
-            margin-bottom: 23px
+            .feedback-photo
+                margin: 0 auto 8px
+                text-align: center
+                max-height: 400px
 
-        .feedback-mini
-            line-height: 36px
-            font-weight: 300
-            font-size: 30px
-            color: $darkLightColor
+            .feedback-title
+                line-height: 32px
+                font-weight: 400
+                font-size: 16px
+                color: $primaryTransparentColor
+                margin-bottom: 23px
+
+            .feedback-mini
+                line-height: 36px
+                font-weight: 300
+                font-size: 30px
+                color: $darkLightColor
+
