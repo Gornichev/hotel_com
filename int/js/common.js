@@ -7,6 +7,7 @@ const slider = new Swiper(".in-intro-slider", {
     watchSlidesProgress: true,
     direction: "vertical",
 });
+
 const intro = new Swiper(".intro-slider", {
     loop: true,
     spaceBetween: 24,
@@ -18,6 +19,7 @@ const intro = new Swiper(".intro-slider", {
         disableOnInteraction: false,
     },
 });
+
 // Swiper feedback start
 const feedback = new Swiper(".in-feedback-slider", {
     spaceBetween: 24,
@@ -28,6 +30,7 @@ const feedback = new Swiper(".in-feedback-slider", {
         disableOnInteraction: false,
     },
 });
+
 const feed = new Swiper(".feedback-slider", {
     spaceBetween: 24,
     thumbs: {
@@ -44,3 +47,4 @@ const feed = new Swiper(".feedback-slider", {
     },
 });
 
+// burgermenu
