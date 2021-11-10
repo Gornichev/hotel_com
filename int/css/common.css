@@ -1,10 +1,6 @@
 @import "../icon/style.css";
 #btn-show-menu {
-  padding: 5px 7px;
-  font-size: 14px;
   line-height: 1.2;
-  border: 1px solid #333;
-  border-radius: 5px;
   -webkit-transition: all 0.12s linear;
   -moz-transition: all 0.12s linear;
   -o-transition: all 0.12s linear;
@@ -67,7 +63,7 @@
   left: 248px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #D9EEF7;
+  background-color: #f9d15c;
   color: #262833;
   border-radius: 50%;
   -webkit-transition: all 0.12s linear;
@@ -193,6 +189,9 @@
   opacity: 1;
 }
 
+.section-feedback {
+  margin-bottom: 120px;
+}
 .section-feedback .feedback-slider .slider-user {
   min-height: 400px;
 }
@@ -415,6 +414,45 @@ body {
 
 .section-mini-logo-line {
   margin-bottom: 100px;
+}
+
+.section-best {
+  margin-bottom: 40px;
+}
+.section-best .best-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.section-best .best-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  max-width: 380px;
+}
+.section-best .nav-link {
+  color: #555555;
+  padding: 8px 27px;
+  border-color: #999999 1px solid;
+}
+.section-best .nav li {
+  margin-right: 39px;
+}
+.section-best .nav li:last-child {
+  margin-right: 0;
+}
+.section-best .nav-tabs {
+  border: none;
+}
+.section-best .nav-tabs .nav-item {
+  border: 1px solid #555555;
+  border-radius: 10px;
+}
+.section-best .nav-tabs .nav-item .nav-link.active {
+  border: 1px solid #222222;
+  border-radius: 10px;
 }
 
 .row-padding-0 {
