@@ -455,6 +455,22 @@ body {
   border-radius: 10px;
 }
 
+.modal .btn-close {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #F9D15C;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 800;
+  top: -32px;
+  right: -26px;
+}
+.modal .btn-close .modal-content {
+  padding: 20px;
+}
+
 .row-padding-0 {
   margin-left: 0 !important;
   margin-right: 0 !important;
