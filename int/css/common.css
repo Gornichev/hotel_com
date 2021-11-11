@@ -455,9 +455,30 @@ body {
   border-radius: 10px;
 }
 
+.best-service-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.best-service-group .service-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.best-service-group .service-link::after {
+  content: "";
+  width: 109px;
+  height: 6px;
+  background: #F9D15C;
+  display: block;
+  border-radius: 50px;
+}
+
 .modal .modal-dialog {
   background: #FFFFFF;
   border: none;
+  max-width: 400px;
 }
 .modal .modal-dialog .modal-content {
   margin-bottom: 20px;
@@ -476,8 +497,8 @@ body {
   font-size: 16px;
   text-align: center;
   font-weight: 800;
-  top: -20px;
-  right: -20px;
+  top: -54px;
+  right: -54px;
   position: relative;
 }
 .modal .modal-dialog .modal-content .modal-header .modal-title {
@@ -490,6 +511,30 @@ body {
 }
 .modal .modal-dialog .modal-body {
   padding: 0 40px;
+}
+.modal .modal-dialog .modal-body .form-control {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 15px;
+  max-width: 350px;
+}
+.modal .modal-dialog .footer-modal {
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.modal .modal-dialog .footer-modal .btn {
+  padding: 10px 20px;
+}
+.modal .modal-dialog .footer-modal .modal-link {
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.modal .modal-dialog .footer-modal .modal-link .icon {
+  font-size: 25px;
 }
 
 .row-padding-0 {
