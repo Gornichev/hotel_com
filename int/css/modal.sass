@@ -1,17 +1,41 @@
 @import "variables"
 
 
-.modal .btn-close
-	width: 25px
-	height: 25px
-	border-radius: 50%
-	background: $primaryColor
-	color: $mainDarkColor
-	font-size: 16px
-	text-align: center
-	font-weight: 800
-	top: -32px
-	right: -26px
+.modal
+	.modal-dialog
+		background: $MainColor
+		border: none
 
-	.modal-content
-		padding: 20px
+		.modal-content
+			margin-bottom: 20px
+			border-bottom:  none
+
+			.modal-header
+				padding: 40px 40px 0
+				border: none
+
+				.btn-close
+					width: 25px
+					height: 25px
+					border-radius: 50%
+					background: $primaryColor
+					color: $mainDarkColor
+					font-size: 16px
+					text-align: center
+					font-weight: 800
+					top: -20px
+					right: -20px
+					position: relative
+
+				.modal-title
+					font-size: 30px
+					font-weight: 600
+					line-height: 20px
+					color: $mainDarkColor
+					text-align: center
+					position: absolute
+
+		.modal-body
+			padding: 0 40px
+
+
