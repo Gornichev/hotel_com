@@ -485,7 +485,7 @@ body {
   border-bottom: none;
 }
 .modal .modal-dialog .modal-content .modal-header {
-  padding: 40px 30px 0;
+  padding: 40px 40px 0;
   border: none;
 }
 .modal .modal-dialog .modal-content .modal-header .btn-close {
@@ -510,7 +510,7 @@ body {
   position: absolute;
 }
 .modal .modal-dialog .modal-body {
-  padding: 0 30px;
+  padding: 0 40px;
 }
 .modal .modal-dialog .modal-body .form-control {
   font-size: 18px;
