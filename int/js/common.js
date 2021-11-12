@@ -29,6 +29,11 @@ const feedback = new Swiper(".in-feedback-slider", {
         delay: 2500,
         disableOnInteraction: false,
     },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        freeMode: true,
+    },
 });
 
 const feed = new Swiper(".feedback-slider", {
@@ -36,11 +41,7 @@ const feed = new Swiper(".feedback-slider", {
     thumbs: {
         swiper: feedback,
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        freeMode: true,
-    },
+
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
