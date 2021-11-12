@@ -519,14 +519,21 @@ body {
   margin-bottom: 15px;
   max-width: 350px;
 }
+.modal .modal-dialog .modal-body .form-check-label {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
 .modal .modal-dialog .footer-modal {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 .modal .modal-dialog .footer-modal .btn {
   padding: 10px 20px;
+  margin-bottom: 20px;
 }
 .modal .modal-dialog .footer-modal .modal-link {
   padding: 10px;
