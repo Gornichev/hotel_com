@@ -47,6 +47,16 @@ const feed = new Swiper(".feedback-slider", {
     },
 });
 
+const best = new Swiper(".best-swiper", {
+    spaceBetween: 24,
+    freeMode: true,
+    loop: true,
+    slidesPerView: 3,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+});
 // burgermenu
 
 const btnMenu = document.querySelector("#btn-show-menu");
