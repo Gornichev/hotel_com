@@ -521,6 +521,18 @@ body {
   padding: 8px 27px;
   border-color: #999999 1px solid;
 }
+.section-best .nav-link:hover {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 101;
+  transition: 1s;
+  border-radius: 10px;
+}
 .section-best .nav li {
   margin-right: 39px;
 }
@@ -557,6 +569,16 @@ body {
   background: #F9D15C;
   display: block;
   border-radius: 50px;
+}
+
+.section-best-cards .card .card-body .card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.section-best-cards .card .card-body .card-footer p {
+  display: flex;
 }
 
 .modal .modal-dialog {
