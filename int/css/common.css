@@ -340,6 +340,13 @@ body {
   padding-top: 48px;
   margin-bottom: 100px;
 }
+.header .header-logo {
+  -webkit-transition: 2s ease;
+}
+.header .header-logo:hover {
+  transform: scale(1.4, 1.4);
+  transition: 1s;
+}
 .header .nav .nav-item {
   text-decoration: none;
   font-weight: 400;
@@ -354,10 +361,26 @@ body {
 .header .nav .btn-light {
   margin-left: 25px;
 }
+.header .nav .btn-light:hover {
+  content: "";
+  background-color: #f9d15c;
+  z-index: 101;
+  transition: 1s;
+}
 .header .nav .icon {
   margin-left: 60px;
   color: #000000;
   font-size: 25px;
+}
+.header .nav .icon:hover {
+  content: "";
+  transform: rotateY(180deg);
+}
+.header .nav-item:hover {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 101;
+  transition: 0.3s;
 }
 
 .intro .intro-title {
@@ -498,6 +521,13 @@ body {
 
 .section-mini-logo-line {
   margin-bottom: 100px;
+}
+.section-mini-logo-line .mini-logo-one {
+  -webkit-transition: 2s ease;
+}
+.section-mini-logo-line .mini-logo-one:hover {
+  transform: scale(1.4, 1.4);
+  transition: 1s;
 }
 
 .section-best {

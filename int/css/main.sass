@@ -18,6 +18,13 @@ body
 	padding-top: 48px
 	margin-bottom: 100px
 
+	.header-logo
+		-webkit-transition: 2s ease
+
+	.header-logo:hover
+		transform: scale(1.4,1.4)
+		transition: 1s
+
 	.nav .nav-item
 		text-decoration: none
 		font-weight: 400
@@ -32,10 +39,27 @@ body
 	.nav .btn-light
 		margin-left: 25px
 
+	.nav .btn-light:hover
+		content: ""
+		background-color: rgb(249 209 92)
+		z-index: 101
+		transition: 1s
+
 	.nav .icon
 		margin-left: 60px
 		color: #000000
 		font-size: 25px
+
+	.nav .icon:hover
+		content: ""
+		transform: rotateY(180deg)
+
+	.nav-item:hover
+		content: ""
+		background-color: rgba(0,0,0,.15)
+		z-index: 101
+		transition: 0.3s
+
 
 //<!--//Header finish-->
 //<!--Section Intro Start-->
@@ -185,6 +209,14 @@ body
 
 .section-mini-logo-line
 	margin-bottom: 100px
+
+	.mini-logo-one
+		-webkit-transition: 2s ease
+
+	.mini-logo-one:hover
+		transform: scale(1.4,1.4)
+		transition: 1s
+
 
 //section-best start!
 .section-best
