@@ -53,10 +53,10 @@ const best = new Swiper(".best-swiper", {
     freeMode: true,
     loop: true,
     slidesPerView: 3,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 });
 // burgermenu
 
