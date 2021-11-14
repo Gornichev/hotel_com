@@ -642,6 +642,7 @@ body {
 .section-updates .update-group {
   background-color: #EAECEB;
   padding-right: 84px;
+  overflow: hidden;
 }
 .section-updates .update-group .update-mini-group {
   padding: 60px 74px 66px 74px;
@@ -674,6 +675,10 @@ body {
   padding: 14px 0 14px 25px;
   position: relative;
   max-width: 486px;
+}
+.section-updates .update-group .img-update {
+  height: auto;
+  max-width: 400px;
 }
 
 .footer {
