@@ -147,6 +147,18 @@
   border-radius: 5px;
 }
 
+.btn-form-update {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 32px;
+  background: #3771C8;
+  color: #FFFFFF;
+  border-radius: 40px;
+  left: 540px;
+  position: absolute;
+}
+
 .intro-img-group {
   margin-bottom: 120px;
 }
@@ -382,7 +394,7 @@ body {
 }
 .header .nav a:hover {
   content: "";
-  background-color: rgba(0, 0, 0, 0.15);
+  color: #f9d15c;
   z-index: 101;
   transition: 0.3s;
 }
@@ -624,6 +636,9 @@ body {
   display: flex;
 }
 
+.section-updates {
+  margin-bottom: 120px;
+}
 .section-updates .update-group {
   background-color: #EAECEB;
   padding-right: 84px;
@@ -646,6 +661,23 @@ body {
   margin-bottom: 92px;
   color: #555555;
   max-width: 500px;
+}
+.section-updates .update-group .update-mini-group .update-form {
+  display: flex;
+}
+.section-updates .update-group .update-mini-group .update-form .form-control {
+  background: #FFFFFF;
+  border-radius: 25px;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 400;
+  padding: 14px 0 14px 25px;
+  position: relative;
+  max-width: 486px;
+}
+
+.footer .footer-logo-group .footer-text {
+  color: #555555;
 }
 
 .modal .modal-dialog {

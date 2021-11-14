@@ -61,10 +61,9 @@ body
 
 	.nav a:hover
 		content: ""
-		background-color: rgba(0,0,0,.15)
+		color: rgb(249 209 92)
 		z-index: 101
 		transition: 0.3s
-
 
 //<!--//Header finish-->
 //<!--Section Intro Start-->
@@ -319,6 +318,7 @@ body
 
 //<!--section-updates finish-->
 .section-updates
+	margin-bottom: 120px
 
 	.update-group
 		background-color: $GrayColor
@@ -343,5 +343,26 @@ body
 				margin-bottom: 92px
 				color: $primaryTransparentColor
 				max-width: 500px
+
+			.update-form
+				display: flex
+
+				.form-control
+					background: $MainColor
+					border-radius: 25px
+					font-size: 14px
+					line-height: 2
+					font-weight: 400
+					padding: 14px 0 14px 25px
+					position: relative
+					max-width: 486px
+
+.footer
+
+	.footer-logo-group
+
+		.footer-text
+			color: $primaryTransparentColor
+
 
 
