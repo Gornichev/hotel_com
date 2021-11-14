@@ -341,10 +341,10 @@ body {
   margin-bottom: 100px;
 }
 .header .header-logo {
-  -webkit-transition: 2s ease;
+  -webkit-transition: 1s ease;
 }
 .header .header-logo:hover {
-  transform: scale(1.4, 1.4);
+  transform: scale(1.4, 1.4) rotateX(360deg);
   transition: 1s;
 }
 .header .nav .nav-item {
@@ -354,12 +354,14 @@ body {
   line-height: 24px;
   color: #222222;
   margin-left: 40px;
+  -webkit-transition: 2s ease;
 }
 .header .nav-item:first-child {
   margin-left: 0;
 }
 .header .nav .btn-light {
   margin-left: 25px;
+  -webkit-transition: 2s ease;
 }
 .header .nav .btn-light:hover {
   content: "";
@@ -371,12 +373,14 @@ body {
   margin-left: 60px;
   color: #000000;
   font-size: 25px;
+  display: block;
 }
 .header .nav .icon:hover {
   content: "";
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) scale(1.2, 1.2);
+  transition: 3s;
 }
-.header .nav-item:hover {
+.header .nav a:hover {
   content: "";
   background-color: rgba(0, 0, 0, 0.15);
   z-index: 101;
@@ -550,6 +554,7 @@ body {
   color: #555555;
   padding: 8px 27px;
   border-color: #999999 1px solid;
+  -webkit-transition: 2s ease;
 }
 .section-best .nav-link:hover {
   content: "";
@@ -591,6 +596,11 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 35px;
+  -webkit-transition: 2s ease;
+}
+.best-service-group .service-link:hover {
+  transform: scale(1.2, 1.2);
+  transition: 2s;
 }
 .best-service-group .service-link::after {
   content: "";
@@ -601,6 +611,9 @@ body {
   border-radius: 50px;
 }
 
+.section-best-cards {
+  margin-bottom: 120px;
+}
 .section-best-cards .card .card-body .card-title {
   font-weight: 600;
   font-size: 20px;
@@ -609,6 +622,30 @@ body {
 }
 .section-best-cards .card .card-body .card-footer p {
   display: flex;
+}
+
+.section-updates .update-group {
+  background-color: #EAECEB;
+  padding-right: 84px;
+}
+.section-updates .update-group .update-mini-group {
+  padding: 60px 74px 66px 74px;
+}
+.section-updates .update-group .update-mini-group .update-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  color: #222222;
+  max-width: 700px;
+}
+.section-updates .update-group .update-mini-group .update-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 92px;
+  color: #555555;
+  max-width: 500px;
 }
 
 .modal .modal-dialog {
