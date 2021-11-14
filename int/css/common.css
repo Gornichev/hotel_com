@@ -637,7 +637,7 @@ body {
 }
 
 .section-updates {
-  margin-bottom: 120px;
+  margin-bottom: 125px;
 }
 .section-updates .update-group {
   background-color: #EAECEB;
@@ -679,23 +679,49 @@ body {
 .footer {
   margin-bottom: 60px;
 }
+.footer .footer-logo-group {
+  padding-left: 20px;
+}
 .footer .footer-logo-group .footer-logo {
-  margin-bottom: 24px;
+  margin-bottom: 19px;
 }
 .footer .footer-logo-group .footer-text {
   color: #555555;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  max-width: 260px;
+  max-width: 265px;
 }
 .footer .footer-social-icon a {
-  margin-right: 40px;
+  margin-right: 24px;
   text-decoration: none;
 }
 .footer .footer-social-icon .icon {
+  font-size: 18px;
+  color: #555555;
+}
+.footer .head-group-footer {
+  list-style: none;
+  padding-right: 24px;
+  padding-left: 118px;
+}
+.footer .head-group-footer a {
   font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222222;
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: block;
+}
+.footer .element-footer {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 24px;
+  display: block;
 }
 
 .modal .modal-dialog {
