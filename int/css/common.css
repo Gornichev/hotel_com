@@ -128,7 +128,7 @@
   border-radius: 10%;
 }
 
-.btn-lg {
+.btn-worth {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -464,11 +464,10 @@ body {
 }
 .service .service-group .service-link::after {
   content: "";
-  width: 109px;
   height: 6px;
-  background: #F9D15C;
   display: block;
   border-radius: 50px;
+  border: #F9D15C solid 1px;
 }
 
 .service {
@@ -628,11 +627,10 @@ body {
 }
 .best-service-group .service-link::after {
   content: "";
-  width: 109px;
   height: 6px;
-  background: #F9D15C;
   display: block;
   border-radius: 50px;
+  border: #F9D15C solid 1px;
 }
 
 .section-best-cards {
