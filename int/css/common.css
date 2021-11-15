@@ -122,8 +122,6 @@
 }
 
 .btn-find {
-  background: #3771C8;
-  color: #FFFFFF;
   padding: 19px;
   border-radius: 12%;
   border-top-left-radius: 8px !important;
@@ -133,12 +131,7 @@
 }
 
 .btn-worth {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 16px 32px;
-  background: #3771C8;
-  color: #FFFFFF;
+  border-radius: 8px;
 }
 
 .btn-sm {
@@ -146,21 +139,23 @@
   font-size: 16px;
   line-height: 20px;
   padding: 5px 15px;
-  background: #3771C8;
-  color: #FFFFFF;
   border-radius: 5px;
 }
 
 .btn-form-update {
+  border-radius: 40px;
+}
+
+.btn-primary {
+  background: #3771C8;
+  color: #FFFFFF;
+}
+
+.btn-lg {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   padding: 16px 32px;
-  background: #3771C8;
-  color: #FFFFFF;
-  border-radius: 40px;
-  left: 540px;
-  position: absolute;
 }
 
 .intro-img-group {
@@ -581,7 +576,7 @@ body {
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 20px;
-  max-width: 380px;
+  max-width: 405px;
 }
 .section-best .nav-link {
   color: #555555;
@@ -609,6 +604,7 @@ body {
 }
 .section-best .nav-tabs {
   border: none;
+  margin-bottom: 40px;
 }
 .section-best .nav-tabs .nav-item {
   border: 1px solid #555555;
