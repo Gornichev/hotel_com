@@ -124,10 +124,12 @@
 .btn-find {
   background: #3771C8;
   color: #FFFFFF;
-  padding: 16px;
+  padding: 19px;
   border-radius: 12%;
   border-top-left-radius: 8px !important;
   border-bottom-left-radius: 8px !important;
+  max-height: 56px;
+  max-width: 56px;
 }
 
 .btn-worth {
@@ -482,6 +484,10 @@ body {
 }
 .service .service-items .item-one {
   padding: 33px 15px 50px;
+  border-radius: 8px;
+}
+.service .service-items .item-one:hover {
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.05);
 }
 .service .service-items .item-one .figure {
   width: 56px;
