@@ -125,7 +125,9 @@
   background: #3771C8;
   color: #FFFFFF;
   padding: 16px;
-  border-radius: 10%;
+  border-radius: 12%;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
 }
 
 .btn-worth {
@@ -405,11 +407,11 @@ body {
 
 .intro .intro-title-group {
   border: none;
-  background-color: #FAFAFA;
 }
 .intro .input-group-text {
   border: none;
   background-color: #FAFAFA;
+  border-radius: 8px;
 }
 .intro .intro-title {
   font-size: 60px;
@@ -433,6 +435,8 @@ body {
 .intro .intro-form {
   padding: 50px 20px;
   max-width: 490px;
+  box-shadow: 0 22px 38px rgba(0, 34, 19, 0.04);
+  border-radius: 20px;
 }
 
 .service .service-title {
@@ -456,28 +460,17 @@ body {
   flex-direction: column;
   text-align: center;
 }
-
-.service-link:after {
-  color: #fff;
-}
-
-.service-link {
+.service .service-group .service-link {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  position: relative;
-  display: inline-block;
 }
-.service-link:after {
+.service .service-group .service-link::after {
   content: "";
-  position: absolute;
-  top: 100%;
-  left: -15px;
-  right: -15px;
   height: 6px;
   display: block;
-  border-radius: 3px;
+  border-radius: 50px;
   border: #F9D15C solid 1px;
 }
 

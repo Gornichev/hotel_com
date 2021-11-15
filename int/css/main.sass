@@ -71,12 +71,12 @@ body
 
 	.intro-title-group
 		border: none
-		background-color: $lightColor
 
 	.input-group-text
 		border: none
 		background-color: $lightColor
 
+		border-radius: 8px
 
 	.intro-title
 		font-size: 60px
@@ -100,6 +100,9 @@ body
 	.intro-form
 		padding: 50px 20px
 		max-width: 490px
+		box-shadow: 0 22px 38px rgba(0, 34, 19, 0.04)
+		border-radius: 20px
+
 //<!--Section Intro finish-->
 //<!--section service start-->
 .service
@@ -125,30 +128,18 @@ body
 		flex-direction: column
 		text-align: center
 
-.service-link:after
-	color: #fff
+		.service-link
+			text-decoration: none
+			font-size: 16px
+			font-weight: 400
+			line-height: 28px
 
-.service-link :after
-
-
-.service-link
-	text-decoration: none
-	font-size: 16px
-	font-weight: 400
-	line-height: 28px
-	position: relative
-	display: inline-block
-
-	&:after
-		content: ""
-		position: absolute
-		top: 100%
-		left: -15px
-		right: -15px
-		height: 6px
-		display: block
-		border-radius: 3px
-		border: $primaryColor solid 1px
+			&::after
+				content: ""
+				height: 6px
+				display: block
+				border-radius: 50px
+				border: $primaryColor solid 1px
 
 //section service finish-->
 //<!--Service_items-->
