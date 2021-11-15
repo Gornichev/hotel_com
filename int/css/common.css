@@ -114,7 +114,7 @@
 .btn-light {
   border-color: #999999;
   padding: 10px 22px;
-  border-radius: 30%;
+  border-radius: 25px;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -178,6 +178,7 @@
   align-items: flex-end;
   justify-content: center;
   min-height: 590px;
+  border-radius: 16px;
 }
 .swiper.intro-slider .swiper-slide img {
   width: 100%;
@@ -187,6 +188,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  border-radius: 16px;
 }
 .swiper.intro-slider .swiper-slide .slider-text {
   z-index: 101;
@@ -206,6 +208,7 @@
 .swiper.in-intro-slider .swiper-slide img {
   width: 100%;
   min-height: 287px;
+  border-radius: 25px;
 }
 .swiper.in-intro-slider .swiper-slide-thumb-active {
   opacity: 1;
@@ -329,6 +332,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 41px;
+  border: none;
 }
 
 body {
@@ -399,6 +403,14 @@ body {
   transition: 0.3s;
 }
 
+.intro .intro-title-group {
+  border: none;
+  background-color: #FAFAFA;
+}
+.intro .input-group-text {
+  border: none;
+  background-color: #FAFAFA;
+}
 .intro .intro-title {
   font-size: 60px;
   line-height: 80px;
