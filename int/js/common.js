@@ -14,10 +14,10 @@ const intro = new Swiper(".intro-slider", {
     thumbs: {
         swiper: slider,
     },
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
 });
 
 // Swiper feedback start
