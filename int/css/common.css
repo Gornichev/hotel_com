@@ -387,18 +387,25 @@ body {
   flex-direction: column;
   text-align: center;
 }
-.service .service-group .service-link {
+
+.service-link {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+  position: relative;
+  display: inline-block;
 }
-.service .service-group .service-link::after {
+.service-link:after {
   content: "";
   height: 6px;
   display: block;
-  border-radius: 50px;
+  border-radius: 3px;
   border: #F9D15C solid 1px;
+  position: absolute;
+  top: 100%;
+  right: -15px;
+  left: -15px;
 }
 
 .service {

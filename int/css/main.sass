@@ -128,18 +128,24 @@ body
 		flex-direction: column
 		text-align: center
 
-		.service-link
-			text-decoration: none
-			font-size: 16px
-			font-weight: 400
-			line-height: 28px
+.service-link
+	text-decoration: none
+	font-size: 16px
+	font-weight: 400
+	line-height: 28px
+	position: relative
+	display: inline-block
 
-			&::after
-				content: ""
-				height: 6px
-				display: block
-				border-radius: 50px
-				border: $primaryColor solid 1px
+	&:after
+		content: ""
+		height: 6px
+		display: block
+		border-radius: 3px
+		border: $primaryColor solid 1px
+		position: absolute
+		top: 100%
+		right: -15px
+		left: -15px
 
 //section service finish-->
 //<!--Service_items-->
