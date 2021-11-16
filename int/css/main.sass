@@ -240,8 +240,55 @@ body
 
 //section-best start!
 .section-best
-	margin-bottom: 40px
+	margin-bottom: 120px
 
+	.tab-content
+
+		.card
+			border-radius: 25px
+
+			.card-img-top
+				margin-bottom: 20px
+
+			.card-body
+				padding: 0 20px 3px
+
+				.card-title
+					font-weight: 600
+					font-size: 20px
+					line-height: 1.5
+					margin-bottom: 8px
+					color: $darkLightColor
+					text-align: left
+
+				.card-text
+					font-weight: 400
+					font-size: 14px
+					line-height: 1.7
+					margin-bottom: 27px
+					color: $darkLightColor
+					text-align: left
+					max-width: 330px
+
+				.card-footer
+					border: 0
+					background-color: $MainColor
+					padding: 0
+
+				.card-footer p
+					display: flex
+					font-weight: 600
+					font-size: 24px
+					line-height: 1
+					color: $FindColor
+
+					.best-element
+						font-weight: 400
+						font-size: 14px
+						line-height: 1.7
+						color: $darkLightColor
+						//margin-left: 5px
+						padding-top: 5px
 
 	.best-title
 		font-weight: 600
@@ -320,18 +367,7 @@ body
 .section-best-cards
 	margin-bottom: 120px
 
-	.card
 
-		.card-body
-
-			.card-title
-				font-weight: 600
-				font-size: 20px
-				line-height: 1.5
-				margin-bottom: 8px
-
-			.card-footer p
-				display: flex
 
 //<!--section-updates start-->
 
@@ -343,6 +379,7 @@ body
 		background-color: $GrayColor
 		padding-right: 84px
 		overflow: hidden
+		border-radius: 16px
 
 		.update-mini-group
 			padding: 60px 74px 66px 74px
@@ -374,7 +411,7 @@ body
 					font-weight: 400
 					padding: 14px 0 14px 25px
 					position: relative
-					max-width: 486px
+					min-width: 486px
 		.img-update
 			height: auto
 			max-width: 400px

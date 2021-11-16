@@ -123,7 +123,7 @@
 
 .btn-find {
   padding: 19px;
-  border-radius: 12%;
+  border-radius: 9px;
   border-top-left-radius: 8px !important;
   border-bottom-left-radius: 8px !important;
   max-height: 56px;
@@ -143,7 +143,11 @@
 }
 
 .btn-form-update {
-  border-radius: 40px;
+  border-radius: 49px;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  position: relative;
+  right: 140px;
 }
 
 .btn-primary {
@@ -250,80 +254,6 @@
   font-weight: 300;
   font-size: 30px;
   color: #222222;
-}
-
-.section-best-cards .swiper {
-  width: 100%;
-  height: 100%;
-}
-.section-best-cards .swiper .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.section-best-cards .swiper .swiper-slide .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.section-best-cards .card {
-  border-radius: 25px;
-}
-.section-best-cards .card .card-img-top {
-  margin-bottom: 20px;
-}
-.section-best-cards .card .card-body {
-  padding: 0 20px 3px;
-}
-.section-best-cards .card .card-body .card-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 8px;
-  color: #222222;
-  text-align: left;
-}
-.section-best-cards .card .card-body .card-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 27px;
-  color: #222222;
-  text-align: left;
-  max-width: 330px;
-}
-.section-best-cards .card .card-body .card-footer {
-  border: 0;
-  background-color: #FFFFFF;
-  padding: 0;
-}
-.section-best-cards .card .card-body .card-footer p {
-  display: flex;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
-  color: #3771C8;
-}
-.section-best-cards .card .card-body .card-footer p .best-element {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #222222;
-  padding-top: 5px;
 }
 
 .form-control {
@@ -563,7 +493,52 @@ body {
 }
 
 .section-best {
-  margin-bottom: 40px;
+  margin-bottom: 120px;
+}
+.section-best .tab-content .card {
+  border-radius: 25px;
+}
+.section-best .tab-content .card .card-img-top {
+  margin-bottom: 20px;
+}
+.section-best .tab-content .card .card-body {
+  padding: 0 20px 3px;
+}
+.section-best .tab-content .card .card-body .card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: #222222;
+  text-align: left;
+}
+.section-best .tab-content .card .card-body .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 27px;
+  color: #222222;
+  text-align: left;
+  max-width: 330px;
+}
+.section-best .tab-content .card .card-body .card-footer {
+  border: 0;
+  background-color: #FFFFFF;
+  padding: 0;
+}
+.section-best .tab-content .card .card-body .card-footer p {
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  color: #3771C8;
+}
+.section-best .tab-content .card .card-body .card-footer p .best-element {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #222222;
+  padding-top: 5px;
 }
 .section-best .best-title {
   font-weight: 600;
@@ -642,15 +617,6 @@ body {
 .section-best-cards {
   margin-bottom: 120px;
 }
-.section-best-cards .card .card-body .card-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 8px;
-}
-.section-best-cards .card .card-body .card-footer p {
-  display: flex;
-}
 
 .section-updates {
   margin-bottom: 125px;
@@ -659,6 +625,7 @@ body {
   background-color: #EAECEB;
   padding-right: 84px;
   overflow: hidden;
+  border-radius: 16px;
 }
 .section-updates .update-group .update-mini-group {
   padding: 60px 74px 66px 74px;
@@ -690,7 +657,7 @@ body {
   font-weight: 400;
   padding: 14px 0 14px 25px;
   position: relative;
-  max-width: 486px;
+  min-width: 486px;
 }
 .section-updates .update-group .img-update {
   height: auto;
