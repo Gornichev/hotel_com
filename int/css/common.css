@@ -863,6 +863,16 @@ body {
   .section_worth .worth-full {
     padding: 20px;
   }
+
+  .section-mini-logo-line {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .update-group {
+    text-align: center;
+    padding-right: 0;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
