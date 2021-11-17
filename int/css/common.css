@@ -814,6 +814,10 @@ body {
     position: static;
   }
 
+  .section_worth {
+    text-align: center;
+    margin-bottom: 30px;
+  }
   .section_worth .worth-full .worth-title {
     max-width: 1119px;
     text-align: center;
@@ -829,11 +833,6 @@ body {
   }
 
   .intro-img-group {
-    margin-bottom: 30px;
-  }
-
-  .section_worth {
-    text-align: center;
     margin-bottom: 30px;
   }
 }
@@ -855,6 +854,9 @@ body {
 
   .service {
     margin-bottom: 0;
+  }
+  .service .service-mini-text {
+    margin-bottom: 20px;
   }
   .service .item-one {
     padding: 20px !important;
