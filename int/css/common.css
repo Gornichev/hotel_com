@@ -822,13 +822,6 @@ body {
   .service {
     margin-bottom: 30px;
   }
-  .service .service-title {
-    text-align: center;
-  }
-  .service .service-mini-text {
-    max-width: 1119px;
-    text-align: center;
-  }
 
   .img-worth {
     margin: 0 auto 20px;
