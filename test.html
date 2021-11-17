@@ -18,8 +18,8 @@
 
 <div class="container">
     <div class="wrapper-swiper">
-        <div class="row flex-nowrap">
-            <div class="col-8">
+        <div class="row flex-lg-nowrap">
+            <div class="col-lg-9">
                 <div class="swiper mySwiper2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div thumbsSlider="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img class="img-fluid" src="https://swiperjs.com/demos/images/nature-1.jpg" /></div>
@@ -84,11 +84,23 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 24,
+        spaceBetween: 10,
         slidesPerView: 4,
         freeMode: true,
         watchSlidesProgress: true,
-        direction: "vertical",
+        direction: "horizontal",
+        breakpoints: {
+            0: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            992: {
+                direction: "vertical",
+                spaceBetween: 24,
+            },
+        }
     });
     var swiper2 = new Swiper(".mySwiper2", {
         spaceBetween: 24,
@@ -96,6 +108,37 @@
             swiper: swiper,
         },
     });
+
+    // const swiper = new Swiper('.mySwiper', {
+    //     spaceBetween: 24,
+    //     slidesPerView: 4,
+    //     direction: getDirection(),
+    //     watchSlidesProgress: true,
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    //     on: {
+    //         resize: function () {
+    //             swiper.changeDirection = function (direction) {
+    //
+    //             }
+    //             swiper.changeDirection(getDirection());
+    //         },
+    //     },
+    // });
+    //
+    // function getDirection() {
+    //     const windowWidth = window.innerWidth;
+    //     return window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    // }
+    //
+    // const swiper2 = new Swiper(".mySwiper2", {
+    //     spaceBetween: 24,
+    //     thumbs: {
+    //         swiper: swiper,
+    //     },
+    // });
 </script>
 </body>
 </html>
