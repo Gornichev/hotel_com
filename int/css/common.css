@@ -835,6 +835,9 @@ body {
   .intro-img-group {
     margin-bottom: 30px;
   }
+  .intro-img-group.feedback-title {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 991.98px) {
   .header {
@@ -874,6 +877,29 @@ body {
   .update-group {
     text-align: center;
     padding-right: 0;
+  }
+
+  .swiper.in-intro-slider {
+    margin-top: 10px;
+  }
+  .swiper.in-intro-slider .swiper-wrapper {
+    flex-direction: row;
+  }
+
+  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-mini {
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-title {
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer .head-group-footer {
+    padding: 20px;
   }
 }
 

@@ -1,15 +1,26 @@
 // Swiper Intro start
 const slider = new Swiper(".in-intro-slider", {
     loop: true,
-    spaceBetween: 24,
+    spaceBetween: 10,
     slidesPerView: 2,
     freeMode: true,
     watchSlidesProgress: true,
-    direction: "vertical",
+    direction: "horizontal",
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        992: {
+            direction: "vertical",
+            spaceBetween: 24,
+        },
+    }
 });
 
 const intro = new Swiper(".intro-slider", {
-    loop: true,
     spaceBetween: 24,
     thumbs: {
         swiper: slider,
