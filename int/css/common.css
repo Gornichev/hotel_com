@@ -844,5 +844,32 @@ body {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 991.98px) {
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .intro .intro-title-group {
+    text-align: center;
+  }
+  .intro .intro-form {
+    margin: 0 auto;
+    padding: 10px 30px 30px;
+  }
+  .intro .intro-mini-text {
+    margin-bottom: 20px;
+  }
+
+  .service {
+    margin-bottom: 0;
+  }
+  .service .item-one {
+    padding: 20px !important;
+  }
+
+  .section_worth .worth-full {
+    padding: 20px;
+  }
+}
 
 /*# sourceMappingURL=common.css.map */
