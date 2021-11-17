@@ -42,4 +42,13 @@
   opacity: 1;
 }
 
+@media (max-width: 991.98px) {
+  .swiper.mySwiper {
+    margin-top: 10px;
+  }
+  .swiper.mySwiper .swiper-wrapper {
+    flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=swiper-test.css.map */
