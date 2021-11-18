@@ -664,6 +664,11 @@ body {
   position: relative;
   min-width: 486px;
 }
+.section-updates .update-group .update-mini-group .update-form .input-group {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
 .section-updates .update-group .img-update {
   height: auto;
   max-width: 400px;
@@ -855,6 +860,24 @@ body {
     margin-bottom: 20px;
   }
 
+  .header-logo {
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+  .nav .nav-item {
+    margin-bottom: 20px;
+  }
+  .nav .icon {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .nav .btn {
+    margin-bottom: 20px;
+  }
+
   .service {
     margin-bottom: 0;
   }
@@ -874,9 +897,18 @@ body {
     margin-bottom: 30px;
   }
 
+  .section-updates {
+    margin-bottom: 30px;
+  }
   .section-updates .update-group {
     text-align: center;
     padding-right: 0;
+  }
+  .section-updates .update-group .update-mini-group .update-title {
+    max-width: 991px;
+  }
+  .section-updates .update-group .update-mini-group .update-text {
+    max-width: 991px;
   }
 
   .swiper.in-intro-slider {
