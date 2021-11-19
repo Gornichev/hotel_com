@@ -864,6 +864,9 @@ body {
   .header {
     margin-bottom: 20px;
   }
+  .header .header-logo {
+    margin-bottom: 20px !important;
+  }
 
   .intro .intro-title-group {
     text-align: center;
@@ -874,9 +877,6 @@ body {
   }
   .intro .intro-form .intro-mini-text {
     margin-bottom: 20px;
-  }
-  .intro .header-logo {
-    margin-bottom: 20px !important;
   }
 
   .nav {
@@ -944,6 +944,10 @@ body {
   .intro .intro-title {
     font-size: 50px;
     margin-bottom: 20px;
+    line-height: 60px;
+  }
+  .intro .intro-form .form-control {
+    line-height: 25px;
   }
 
   .section-updates .update-group .update-mini-group {
