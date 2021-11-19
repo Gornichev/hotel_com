@@ -862,7 +862,7 @@ body {
 }
 @media (max-width: 991.98px) {
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .intro .intro-title-group {
@@ -872,12 +872,11 @@ body {
     margin: 0 auto;
     padding: 10px 30px 30px;
   }
-  .intro .intro-mini-text {
+  .intro .intro-form .intro-mini-text {
     margin-bottom: 20px;
   }
-
-  .header-logo {
-    margin-bottom: 20px;
+  .intro .header-logo {
+    margin-bottom: 20px !important;
   }
 
   .nav {
@@ -955,7 +954,10 @@ body {
   }
 
   .section-best {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .section-best .nav-tabs {
+    margin-bottom: 20px;
   }
 
   .section-feedback {
@@ -992,6 +994,14 @@ body {
   }
   .swiper.intro-slider .swiper-slide .swiper-slide img {
     min-height: 450px;
+  }
+
+  .header .nav .nav-item {
+    margin-left: 45px;
+  }
+
+  .section_worth .worth-full .worth-number .worth-group {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 575.98px) {
