@@ -666,7 +666,6 @@ body {
 }
 .section-updates .update-group .update-mini-group .update-form .input-group {
   flex-wrap: nowrap;
-  justify-content: center;
   align-content: center;
 }
 .section-updates .update-group .img-update {
@@ -956,6 +955,37 @@ body {
     margin-bottom: 40px;
   }
   .section-feedback .form-control {
+    max-width: 300px;
+  }
+
+  .footer {
+    margin-bottom: 40px;
+  }
+  .footer .element-footer {
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  .footer .footer-logo-group {
+    text-align: center;
+  }
+  .footer .footer-logo-group .footer-text {
+    max-width: 776px;
+  }
+  .footer .head-group-footer {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+}
+@media (max-width: 575.98px) {
+  .section-updates .update-group .update-mini-group .update-title {
+    font-size: 36px;
+  }
+  .section-updates .update-group .update-mini-group .update-form .form-control {
+    min-width: 270px;
+    padding: 14px 0 14px 15px;
+  }
+  .section-updates .update-group .img-update {
     max-width: 300px;
   }
 }
