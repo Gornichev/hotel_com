@@ -233,6 +233,7 @@
   padding: 42px 71px 87px 71px;
   text-align: center;
   background: #F9D15C;
+  min-height: 400px;
 }
 .section-feedback .in-feedback-slider .swiper-slide .feedback-photo {
   margin: 0 auto 8px;
@@ -842,6 +843,22 @@ body {
   .intro-img-group.feedback-title {
     margin-bottom: 10px;
   }
+
+  .section-updates .update-group .img-update {
+    margin-left: -30px;
+  }
+
+  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-mini {
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-title {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
 }
 @media (max-width: 991.98px) {
   .header {
@@ -903,6 +920,8 @@ body {
   .section-updates .update-group {
     text-align: center;
     padding-right: 0;
+    margin-left: -12px;
+    margin-right: -12px;
   }
   .section-updates .update-group .update-mini-group .update-title {
     max-width: 991px;
@@ -916,18 +935,6 @@ body {
   }
   .swiper.in-intro-slider .swiper-wrapper {
     flex-direction: row;
-  }
-
-  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-mini {
-    line-height: 35px;
-    font-weight: 300;
-    font-size: 18px;
-  }
-  .section-feedback .in-feedback-slider .swiper-slide .feedback-group .feedback-title {
-    line-height: 32px;
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 10px;
   }
 
   .footer .head-group-footer {
@@ -976,6 +983,16 @@ body {
     margin: 0;
     padding: 10px;
   }
+
+  .swiper.intro-slider .swiper-slide {
+    min-height: 450px;
+  }
+  .swiper.intro-slider .swiper-slide .slider-text {
+    font-size: 36px;
+  }
+  .swiper.intro-slider .swiper-slide .swiper-slide img {
+    min-height: 450px;
+  }
 }
 @media (max-width: 575.98px) {
   .section-updates .update-group .update-mini-group .update-title {
@@ -987,6 +1004,13 @@ body {
   }
   .section-updates .update-group .img-update {
     max-width: 300px;
+  }
+
+  .modal .modal-dialog .modal-content .modal-header {
+    padding: 20px;
+  }
+  .modal .modal-dialog .modal-body {
+    padding: 20px;
   }
 }
 
