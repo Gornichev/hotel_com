@@ -1007,8 +1007,19 @@ body {
   .section_worth .worth-full .worth-number .worth-group {
     margin-bottom: 20px;
   }
+
+  .hidden-user-md {
+    display: none;
+  }
 }
 @media (max-width: 575.98px) {
+  .header {
+    margin-bottom: 0;
+  }
+  .header .nav .icon {
+    font-size: 40px;
+  }
+
   .section-updates .update-group .update-mini-group .update-title {
     font-size: 36px;
   }
@@ -1025,6 +1036,10 @@ body {
   }
   .modal .modal-dialog .modal-body {
     padding: 20px;
+  }
+
+  .hidden-user-sm {
+    display: none;
   }
 }
 
