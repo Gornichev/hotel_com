@@ -501,8 +501,18 @@ body {
 .section-best {
   margin-bottom: 120px;
 }
+.section-best .tab-user {
+  color: #495057;
+  text-decoration: none;
+}
+.section-best .card-header {
+  border: 0;
+  text-align: center;
+  background-color: rgba(249, 209, 92, 0.3);
+}
 .section-best .tab-content .card {
-  border-radius: 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 .section-best .tab-content .card .card-img-top {
   margin-bottom: 20px;
@@ -1009,7 +1019,7 @@ body {
   }
 
   .section_worth .worth-full .worth-number .worth-group {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .hidden-user-md {
@@ -1047,7 +1057,7 @@ body {
   }
 
   .responsive-tabs {
-    padding: 1rem;
+    padding: 16px;
   }
 }
 @media (min-width: 768px) {
