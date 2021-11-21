@@ -504,6 +504,8 @@ body {
 .section-best .tab-user {
   color: #495057;
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
 .section-best .card-header {
   border: 0;
