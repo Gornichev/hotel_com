@@ -1032,8 +1032,11 @@ body {
   .header {
     margin-bottom: 0;
   }
+  .header .nav {
+    float: right;
+  }
   .header .nav .icon {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .section-updates .update-group .update-mini-group .update-title {
