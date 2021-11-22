@@ -874,7 +874,8 @@ body {
 }
 @media (max-width: 991.98px) {
   .header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
   }
   .header .header-logo {
     margin-bottom: 20px !important;
@@ -884,7 +885,7 @@ body {
     text-align: center;
   }
   .intro .intro-form {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     padding: 10px 30px 30px;
   }
   .intro .intro-form .intro-mini-text {
@@ -931,13 +932,14 @@ body {
   .section-updates .update-group {
     text-align: center;
     padding-right: 0;
-    margin-left: -12px;
-    margin-right: -12px;
   }
-  .section-updates .update-group .update-mini-group .update-title {
+  .section-updates .img-update {
+    float: right;
+  }
+  .section-updates .img-update .update-mini-group .update-title {
     max-width: 991px;
   }
-  .section-updates .update-group .update-mini-group .update-text {
+  .section-updates .img-update .update-mini-group .update-text {
     max-width: 991px;
   }
 
@@ -951,15 +953,20 @@ body {
   .footer .head-group-footer {
     padding: 20px;
   }
+
+  .hidden-user-md {
+    display: none;
+  }
 }
 @media (max-width: 767.98px) {
   .intro .intro-title {
-    font-size: 50px;
+    font-size: 44px;
     margin-bottom: 20px;
     line-height: 60px;
   }
-  .intro .intro-form .form-control {
-    line-height: 25px;
+
+  .input-group .form-control {
+    font-size: 20px;
   }
 
   .section-updates .update-group .update-mini-group {
@@ -981,6 +988,7 @@ body {
   }
   .section-feedback .form-control {
     max-width: 300px;
+    font-size: 10px;
   }
 
   .service-link {
@@ -1023,14 +1031,10 @@ body {
   .section_worth .worth-full .worth-number .worth-group {
     margin-bottom: 50px;
   }
-
-  .hidden-user-md {
-    display: none;
-  }
 }
 @media (max-width: 575.98px) {
   .header {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
   .header .nav {
     float: right;
